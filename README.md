@@ -3,7 +3,7 @@
    <img align="center" alt="Cesar-Java" height="100" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
 </p>
 
-> 🌱👨‍💻 - Creating a repository on GitHub at FIAP to store HIGH PERFORMANCE CODES, a topic studied in Information Systems. The objective is to share and document performance optimization practices, being a valuable resource for reviews and collaborations, boosting my growth as a developer.
+> 🌱👨‍💻 - I developed a real project for a client, the idea was to create a Landing Page for business administration consultancy, selling courses that will be recorded by HotMart and published on Intagram, where you access the website before going to the purchasing area of ​​HotMart itself.
 
 ## Download
 
