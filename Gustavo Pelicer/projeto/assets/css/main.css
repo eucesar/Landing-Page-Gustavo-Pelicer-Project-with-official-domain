@@ -1,0 +1,264 @@
+/* <SECTION 1°> */
+.logo-sifrao{
+    width: 80%;
+}
+
+.cor-verde{
+    color: var(--verde-claro);
+}
+
+
+.cor-cinza{
+    color: var(--cinza);
+}
+
+.bg-verde{
+    background-color: var(--bg) !important;
+}
+
+@keyframes rotateLeft {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg); /* Gira 360 graus (uma volta completa) */
+    }
+  }
+  
+  .rotate-left-infinite {
+    animation: rotateLeft 10s linear infinite; /* Ajuste a duração (5s) conforme necessário */
+    /* linear garante uma velocidade constante durante a animação */
+  }
+
+/* tablet  */
+@media (max-width: 992px) {
+
+   .hh{
+    font-size: 25px!important;
+   }
+
+   .pp{
+    font-size: 13px!important;
+
+   }
+
+}
+
+/* celular  */
+@media (max-width: 768px) {
+ 
+    .ss{
+        margin: 0!important;
+    }
+
+    .img-c{
+        margin-top: 45px!important;
+    }
+
+}
+/* </SECTION> */
+
+/* <SECTION 2°> */
+
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee-content {
+    display: inline-block;
+    animation: marqueeAnimation 3s linear infinite; /* Ajuste a duração conforme necessário */
+}
+
+@keyframes marqueeAnimation {
+    from {
+        transform: translateX(-10%);
+    }
+    to {
+        transform: translateX(-200%);
+    }
+}
+
+.bg-verdee{
+    background-color: var(--verde-claro);
+}
+
+
+/* </SECTION> */
+
+/* <SECTION 3°> */
+.mm{
+    margin-top: 80px!important;
+}
+
+.max-height-300 {
+    max-height: 300px!important; /* Ajuste conforme necessário */
+  }
+
+/* </SECTION> */
+
+/* <SECTION 4°> */
+
+/* celular  */
+@media (max-width: 768px) {
+ 
+    .logo-gustavo{
+        width: 100% ;
+    
+    }
+
+}
+/* </SECTION> */
+
+/* <SECTION 5°> */
+
+.card-pp{
+    width: 20rem;
+}
+
+
+
+.bg-cinza{
+    background-color: var(--cinza);
+}
+
+.bg-amarelo{
+    background-color: var(--amarelo);
+}
+
+.preto{
+    color: var(--preto);
+}
+
+.bg-verde-claro{
+    background-color: var(--verde-claro);
+}
+
+.texto-justificado{
+    text-align: justify !important;
+}
+
+.cor-verde-escuro{
+    color: var(--bg) !important;
+}
+
+/* celular  */
+@media (max-width: 768px) {
+
+    .card-pp{
+        width: 16rem!important;
+    }
+
+}
+
+/* tablet  */
+@media (max-width: 992px) {
+
+    .card-pp{
+        width: 30rem;
+    }
+ 
+ }
+/* </SECTION> */
+
+/* <SECTION 5°> */
+.ppp{
+    width: 30rem;
+}
+
+/* celular  */
+@media (max-width: 768px) {
+
+    .ppp{
+        width: 15rem !important;
+    }
+
+}
+
+/* </SECTION> */
+
+
+/* <SECTION 7°> */
+
+.bg-preto{
+    background-color: var(--preto);
+}
+
+/* </SECTION> */
+
+/* <SECTION 8°> */
+
+.H1{
+    font-size: 100px !important;
+}
+
+
+/* celular  */
+@media (max-width: 768px) {
+
+    .H1{
+        font-size: 60px !important;
+    }
+
+}
+
+/* </SECTION> */
+
+
+/* <SECTION 8°> */
+.iconess{
+    width: 15%;
+}
+
+/* celular  */
+@media (max-width: 768px) {
+
+    .iconess{
+        width: 35%;
+    }
+
+}
+
+/* tablet  */
+@media (max-width: 992px) {
+
+    .iconess{
+        width: 25%;
+    }
+ 
+ }
+
+/* </SECTION> */
+
+
+/*animation - btn*/
+
+
+.card,
+.logo-gustavo {
+    transition: transform 0.3s ease-out;
+}
+
+.btn-colors {
+    transition: background-color 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.card:hover,
+.logo-gustavo:hover {
+    transform: scale(0.9);
+}
+
+.btn-colors:hover {
+    background-color: #28a745; /* ou a cor desejada ao passar o mouse */
+    transform: scale(1.1);
+}
+
+.iconess {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .iconess:hover {
+    transform: rotate(360deg);
+  }
+
+/*animation - btn*/
