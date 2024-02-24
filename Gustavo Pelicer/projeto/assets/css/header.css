@@ -1,0 +1,30 @@
+#logo-img {
+    width: 15%; /* Largura desejada */
+    ; /* Altura desejada */
+}
+
+/* tablet  */
+@media (max-width: 992px) {
+
+    #logo-img {
+        width: 45%; /* Largura desejada */
+        ; /* Altura desejada */
+    }
+}
+
+/* celular  */
+@media (max-width: 768px) {
+    #logo-img {
+        width: 70%; /* Largura desejada */
+        ; /* Altura desejada */
+    } 
+}
+
+.icone {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .icone:hover {
+    transform: scale(1.2); 
+    color: var(--verde-claro) !important;
+  }
