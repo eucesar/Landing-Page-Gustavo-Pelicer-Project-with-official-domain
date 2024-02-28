@@ -10,7 +10,7 @@
 ## Download
 
 ```sh
-https://github.com/eucesar/BreadcrumbsLanding-Page-Gustavo-Pelicer-Project-with-official-domain.git
+https://github.com/eucesar/Landing-Page-Gustavo-Pelicer-Project-with-official-domain.git
 ```
 
 ## Cesar
