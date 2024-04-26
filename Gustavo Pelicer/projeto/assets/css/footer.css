@@ -1,0 +1,13 @@
+.link-cesar{
+     color: green;
+    text-decoration: underline;
+}
+
+.text-cesar{
+    transition: font-size 0.2s;
+}
+
+.text-cesar:hover {
+    font-size: 1.1em;
+}
+

@@ -1,0 +1,36 @@
+@import url("./imgs.css");
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+
+:root {
+    --verde-claro: #C6DC3A;
+    --amarelo: #c7b77f;
+    --preto: #111111;
+    --branco: #FFFFFF;
+    --cinza: #8F8F8F;
+    --bg: #03161A
+
+}
+
+.crete-round-regular-italic {
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: italic;
+    background-color: var(--bg);
+}
+
+
+
+/*
+    |\__/,|   (`\
+  _.|o o  |_   ) )
+-(((---(((-------- Cesar Iglesias 
+/*
